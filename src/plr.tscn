@@ -1,6 +1,9 @@
-[gd_scene format=3 uid="uid://btepd3lgu2347"]
+[gd_scene load_steps=2 format=3 uid="uid://btepd3lgu2347"]
+
+[ext_resource type="Script" path="res://src/plr.gd" id="1_1b7qj"]
 
 [node name="plr" type="Node3D"]
+script = ExtResource("1_1b7qj")
 
 [node name="XROrigin3D" type="XROrigin3D" parent="."]
 
